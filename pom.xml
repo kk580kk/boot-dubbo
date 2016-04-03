@@ -65,4 +65,40 @@
     <module>boot-dubbo-infrastructure</module>
     <module>boot-dubbo-simple-client</module>
 	</modules>
+	<repositories>
+		<repository>
+			<id>oschina</id>
+			<name>开源中国的 Maven 库</name>
+			<url>http://maven.oschina.net/content/groups/public/</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>thirdparty.maven.oschina.net</id>
+			<name>开源中国的 Maven 第三方库</name>
+			<url>http://maven.oschina.net/content/repositories/thirdparty/</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>spring-releases</id>
+			<url>https://repo.spring.io/libs-release</url>
+		</repository>
+	</repositories>
+	<pluginRepositories>
+		<pluginRepository>
+			<id>oschina</id>
+			<name>开源中国的 Maven 库</name>
+			<url>http://maven.oschina.net/content/groups/public/</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</pluginRepository>
+		<pluginRepository>
+			<id>spring-releases</id>
+			<url>https://repo.spring.io/libs-release</url>
+		</pluginRepository>
+	</pluginRepositories>
 </project>
